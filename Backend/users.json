@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"base": [
+=======
+	"clients" : [
+>>>>>>> 99f0f07ff78300a4c998a8acc9bcc6a597dc7061
 		{
 			"name": "Ferdinand Carney",
 			"phone": "(640) 447-3254",
