@@ -2,7 +2,7 @@ import axios from 'axios'
 import { API_KEY } from './key';
 
 
-export const getClients = async () => {
+export const getUsers = async () => {
     const data = await axios.get('/api' ,{withCredentials: false });
 
     return data;

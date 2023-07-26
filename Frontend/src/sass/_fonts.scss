@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: local('ProximaNova'), url(../fonts/proximanova_regular.ttf) format('truetype');
+}
+
+@mixin proxima {
+    font-family: 'ProximaNova';
+}
+
+@mixin greyColor{
+    color: #8189A3
+}
