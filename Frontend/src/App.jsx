@@ -29,12 +29,12 @@ const [value, setValue] = useState('')
 const filterUsers = 
   articles.filter(client => {
     return ((client.name.toLowerCase().includes(value.toLowerCase())) 
-    || (client.phone.toLowerCase().includes(value.toLowerCase()))
-    || (client.email.toLowerCase().includes(value.toLowerCase()))
-    || (client.address.toLowerCase().includes(value.toLowerCase()))
-    || (client.position_name.toLowerCase().includes(value.toLowerCase()))
-    || (client.department.toLowerCase().includes(value.toLowerCase()))
-    || (client.hire_date.toLowerCase().includes(value.toLowerCase()))
+    // || (client.phone.toLowerCase().includes(value.toLowerCase()))
+    // || (client.email.toLowerCase().includes(value.toLowerCase()))
+    // || (client.address.toLowerCase().includes(value.toLowerCase()))
+    // || (client.position_name.toLowerCase().includes(value.toLowerCase()))
+    // || (client.department.toLowerCase().includes(value.toLowerCase()))
+    // || (client.hire_date.toLowerCase().includes(value.toLowerCase()))
     )
   })
 
@@ -50,12 +50,11 @@ const filterUsers =
             className='search__input'
             onChange={(event) => setValue(event.target.value)}
           />
-          <HandySvg
+            <HandySvg
               src = {searchSvgSrc}
               width = "24px"
               height = "24px"
-              color = "red"
-          />
+              color = "red"/>
         </form>
       </div>
 

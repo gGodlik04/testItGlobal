@@ -1,0 +1,85 @@
+.client-info
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+    background-color: rgba(188, 195, 208, 0.50)
+    position: fixed
+    display: flex
+    align-items: center
+    justify-content: center
+    transform: scale(0)
+    z-index: 999
+    
+    &__content
+        background-color: #FFFFFF
+        height: 480px
+        width: 452px
+        border-radius: 16px
+        padding: 24px
+
+.client-info.active
+    transform: scale(1)
+
+.button-modal
+    width: 310px
+    height: 270px
+    position: relative   
+    bottom: 117px
+    right: 24px
+    bottom: none
+    opacity: 0
+
+.client-info__content
+    color: #262C40
+
+    &_name
+        font-size: 24px
+        font-weight: 700
+
+    &-wrapper
+        margin-top: 40px
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: 1fr
+
+    &-names
+        width: 137px
+        height: 176px
+        margin-right: 40px
+
+        &>:nth-child(n)
+            height: 24px
+            font-size: 18px
+            margin-bottom: 14px
+            align-self: stretch
+
+            
+
+    &-values
+        +greyColor
+
+        &>:nth-child(n)
+            height: 24px
+            margin-bottom: 14px
+            font-size: 16px
+            font-weight: 400
+            align-self: stretch
+            
+    &_address
+        align-self: stretch
+        font-size: 16px
+        +greyColor
+        margin-bottom: 36px
+
+        &-title
+            margin-top: 52px
+            font-size: 18px
+            font-weight: 400
+            margin-bottom: 12px
+
+.client-info__content-names_department
+    margin-top: 50px
+
+.client-info__content_department
+    margin-top: 50px
