@@ -9,5 +9,5 @@ ________________________________________________________________________________
     Данный проект является тестовым заданием. Frontend написан на React, Backend на Node.js + Fastify. Так же используются различные технологии и предпроцессоры. 
    Проект представляет из себя страницу на которую выводятся список пользователей, полученных с сервера в виде JSON по API, строку- поиска пользователей, также отправляющюю API-запрос на сервер + модальное окно с выводом дополнительной информации о клиенте.
 
-![Image alt](https://github.com/{gGodlik04}/{testItGlobal}/raw/{main}/readme1.jpg)
-![Image alt](https://github.com/{gGodlik04}/{testItGlobal}/raw/{main}/readme2.png)
+![main](https://github.com/gGodlik04/testItGlobal/blob/main/readme1.jpg)
+![modal-window](https://github.com/gGodlik04/testItGlobal/blob/main/readme2.png)
