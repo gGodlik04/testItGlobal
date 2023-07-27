@@ -18,7 +18,6 @@ export default function User(props) {
             src={phoneSvgSrc}
             width="24px"
             height="24px"
-            color="red"
           />
           <div className='user__phone'>{user.phone}</div>
         </div>
@@ -27,7 +26,6 @@ export default function User(props) {
             src={emailSvgSrc}
             width="24px"
             height="24px"
-            color="red"
           />
           <div className='user__email'>{user.email}</div>
         </div>

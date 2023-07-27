@@ -9,7 +9,7 @@ export const getUsers = async () => {
 }
 
 export const getClientByName = async (ref) => {
-    const data = await axios.get(
+    const data = await axios.get('/api?term='+ref ,{withCredentials: false});
 
-    );
+    return data;
 }

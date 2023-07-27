@@ -87,7 +87,6 @@
 }
 .client-info__content {
   background-color: #FFFFFF;
-  height: 480px;
   width: 452px;
   border-radius: 16px;
   padding: 24px;
@@ -113,6 +112,8 @@
 .client-info__content_name {
   font-size: 24px;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
 }
 .client-info__content-wrapper {
   margin-top: 40px;
@@ -121,9 +122,7 @@
   grid-template-rows: 1fr;
 }
 .client-info__content-names {
-  width: 137px;
   height: 176px;
-  margin-right: 40px;
 }
 .client-info__content-names > :nth-child(n) {
   height: 24px;
@@ -160,4 +159,9 @@
 
 .client-info__content_department {
   margin-top: 50px;
+}
+
+.closeSvg {
+  position: relative;
+  top: 5px;
 }/*# sourceMappingURL=style.css.map */

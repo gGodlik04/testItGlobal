@@ -1,3 +1,5 @@
+import { HandySvg } from "handy-svg";
+import closeSvgSrc from './../svg/close.svg'
 
 
 
@@ -6,7 +8,14 @@ export default function ModalInfo({ active, setActive, user }) {
     return (
         <div className={active ? "client-info active" : "client-info"} onClick={() => setActive(false)}>
             <div className="client-info__content" onClick={event => event.stopPropagation()}>
-                <div className="client-info__content_name">{user.name}</div>
+                <div className="client-info__content_name">{user.name}
+                <HandySvg
+                    src={closeSvgSrc}
+                    width="20px"
+                    height="20px"    
+                    className="closeSvg"
+                    onClick={() =>setActive(false)}            
+                /></div>
                 <div className="client-info__content-wrapper">
                     <div className="client-info__content-names">
                         <div className="client-info__content-names_phone">Телефон:</div>
