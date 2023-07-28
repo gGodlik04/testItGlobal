@@ -10,7 +10,7 @@ ________________________________________________________________________________
    Проект представляет из себя страницу на которую выводятся список пользователей, полученных с сервера в виде JSON по API, строку- поиска пользователей, также отправляющюю API-запрос на сервер + модальное окно с выводом дополнительной информации о клиенте.
 
 ![main](https://github.com/gGodlik04/testItGlobal/blob/main/SQL%26%26ReadmeIMG/readme1.jpg)
-![modal-window](https://github.com/gGodlik04/gGodlik04/testItGlobal/blob/main/SQL%26%26ReadmeIMG/readme2.png)
+![modal-window](https://github.com/gGodlik04/testItGlobal/blob/main/SQL%26%26ReadmeIMG/readme2.png)
 
 
 .this MS SQL Query 2nd task
