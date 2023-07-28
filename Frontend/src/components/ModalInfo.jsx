@@ -39,3 +39,6 @@ export default function ModalInfo({ active, setActive, user }) {
     )
 
 }
+
+
+//testing
